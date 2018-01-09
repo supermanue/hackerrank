@@ -1,5 +1,5 @@
-# hackerrank
-Learning scala by doing Hackerrank exercises
+I am learning scala by doing exercises in Hackerrank. These are my solutions so far.
+
 
 # Problem List
 
@@ -16,9 +16,12 @@ This may not be updated
    - Insertion Sort- Parts 1 and 2
 
 - Search
-   - hackerland Radio
+   - Hackerland Radio
    - GridLand Metro
    
  - Greedy 
   - Grid Challenge
   
+- Dynamic Programming
+  - Coin Change
+  - Equal

@@ -2,8 +2,6 @@
 //////////////////
 // CODE
 
-val cache = collection.mutable.Map[String, Long]()
-
 def possibilities(cuantity:Int, coins: Array[Int]):Int =
 if ((cuantity < 0 ) || (coins.isEmpty)) 0
 else if (cuantity ==0 ) 1
@@ -12,6 +10,7 @@ else
     possibilities(cuantity, coins.tail)
 
 
+val cache = collection.mutable.Map[String, Long]()
 
 def possibilitiesWithCache(cuantity:Long, coins: Array[Long]):Long = {
   val info = cuantity.toString + "-" + coins.mkString(",")
